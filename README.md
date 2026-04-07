@@ -40,7 +40,7 @@ To run this project locally, ensure that you have the following installed and co
 
 Click to watch the demo!
 <div align="center">
-  <a href="#">
+  <a href="https://docs.google.com/videos/d/1s6-TrwStqwEJAILQluNif5H8plkDwjqPCoUawyOA8w4/edit?usp=drive_link">
     <img src="demo.png" alt="Click to Watch" style="width:100%;">
   </a>
 </div>
