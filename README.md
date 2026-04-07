@@ -21,7 +21,7 @@ This project bridges that gap by deploying an AI Agent that processes uploaded P
 * **Frontend / GUI:** Streamlit
 * **Backend:** Python
 * **AI Orchestration Framework:** LangChain
-* **AI Integration:** Google Gemini API (`gemini-2.5-flash` & `gemini-embedding-001`)
+* **AI Integration:** Google Gemini API (`gemini-2.5-flash` & `GoogleGenerativeAIEmbeddings`)
 * **Database:** ChromaDB (Local Vector Store)
 * **External Tools:** DuckDuckGo Search API (`DuckDuckGoSearchRun`)
 * **Document Processing:** `PyPDFLoader`, `RecursiveCharacterTextSplitter`
