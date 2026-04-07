@@ -10,12 +10,11 @@ This project bridges that gap by deploying an AI Agent that processes uploaded P
 
 ## ✨ Key Features
 
-* **AI Agent Tool Routing:** Powered by **LangChain**, the core AI agent acts as a smart router, intelligently evaluating user prompts to decide whether to trigger the `Academic_Database` tool or the `Web_Search` tool.
-* **Gemini 2.5 Flash Integration:** Leverages Google's latest high-speed, high-efficiency model for reasoning and tool calling, ensuring near-instantaneous responses.
-* **Intelligent Document Chat (RAG):** Automatically parses, chunks (1000 characters with 200 overlap), and embeds uploaded PDFs into a local **Chroma Vector Database** using `gemini-embedding-001`.
+* **AI Agent Tool Routing:** Powered by LangChain, the core AI agent acts as a smart router, intelligently evaluating user prompts to decide whether to trigger the `Academic_Database` tool or the `Web_Search` tool.
+* **Intelligent Document Chat:** Automatically parses, chunks (1000 characters with 200 overlap), and embeds uploaded PDFs into a local Chroma Vector Database for highly accurate semantic retrieval.
 * **Hallucination Mitigation:** Engineered system prompts restrict the LLM to rely *strictly* on retrieved context or web results, forcing the agent to explicitly cite which source it used for transparency.
-* **Live Web Fallback:** Integrates **DuckDuckGo** search to fetch real-time information when user queries fall outside the scope of the uploaded document (e.g., current medical treatments or recent news).
-* **Interactive UI:** Features a clean, user-friendly chat interface built with **Streamlit**, complete with a sidebar for document uploads and persistent session memory.
+* **Live Web Fallback:** Integrates DuckDuckGo search to fetch real-time information when user queries fall outside the scope of the uploaded document (e.g., current medical treatments or recent news).
+* **Interactive UI:** Features a clean, user-friendly chat interface built with Streamlit, complete with a sidebar for document uploads and persistent session memory for continuous conversation.
 
 ## 🛠️ Technologies
 
