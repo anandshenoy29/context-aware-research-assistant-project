@@ -4,9 +4,9 @@ An AI Agent-powered Retrieval-Augmented Generation (RAG) web application designe
 
 ## 📖 Overview
 
-Standard LLMs often struggle with dense academic papers or proprietary enterprise documents. They cannot read private files natively, and when asked highly specific questions about them, they tend to confidently guess or hallucinate. Furthermore, static models lack access to real-time data. 
+Standard LLMs often struggle with proprietary or dense academic documents, frequently leading to "hallucinated" answers when they lack native access to private files. Furthermore, these static models are inherently limited by their inability to access real-time, up-to-the-minute information. 
 
-This project solves this by deploying an AI Agent that acts as an intelligent researcher and query router. Users can upload any PDF document, which the system processes into a local vector database. When a user asks a question, the AI agent evaluates the prompt and selects the most appropriate tool: it will query the uploaded document first for exact, factual extraction, but if the question requires external or real-time context, the agent seamlessly pivots to a live web search.
+This project bridges that gap by deploying an AI Agent that processes uploaded PDFs into a local vector database for precise, factual extraction. As an intelligent query router, the agent then seamlessly pivots to a live web search whenever a question requires external or real-time context.
 
 ## ✨ Key Features
 
