@@ -34,13 +34,13 @@ To run this project locally, ensure that you have the following installed and co
 * VS Code (or your preferred Python IDE)
 * A virtual environment (recommended)
 * Required Python libraries (`python-dotenv`, `streamlit`, `pypdf`, `duckduckgo-search`, `langchain-google-genai`, `langchain` and other LangChain libraries)
-* An active **Google Gemini API Key** (stored securely in a `.env` file as `GOOGLE_API_KEY`)
+* An active Google Gemini API Key (stored securely in a `.env` file as `GOOGLE_API_KEY`)
 
 ## 🎥 Project Demonstration
 
 Click to watch the demo!
 <div align="center">
   <a href="#">
-    <img src="static/demo.png" alt="Click to Watch Context-Aware Agent Demo" style="width:100%;">
+    <img src="demo.png" alt="Click to Watch" style="width:100%;">
   </a>
 </div>
