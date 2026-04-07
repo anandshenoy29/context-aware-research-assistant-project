@@ -2,8 +2,6 @@
 
 An AI Agent-powered Retrieval-Augmented Generation (RAG) web application designed to help users safely extract accurate information from dense, proprietary documents without the risk of AI hallucinations. It features intelligent tool routing, local vector database storage, and a live web search fallback.
 
-This project was developed by an MSc IT Part-I student to bridge the gap between traditional predictive machine learning and modern Generative AI stacks. The system was rigorously tested and validated using an originally authored research paper on predicting sleep quality.
-
 ## 📖 Overview
 
 Standard LLMs often struggle with dense academic papers or proprietary enterprise documents. They cannot read private files natively, and when asked highly specific questions about them, they tend to confidently guess or hallucinate. Furthermore, static models lack access to real-time data. 
