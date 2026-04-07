@@ -31,12 +31,9 @@ This project bridges that gap by deploying an AI Agent that processes uploaded P
 To run this project locally, ensure that you have the following installed and configured on your machine:
 
 * Python 3.8+
-* VS Code, PyCharm, or your preferred Python IDE
+* VS Code (or your preferred Python IDE)
 * A virtual environment (recommended)
-* **Required Python libraries:**
-    ```bash
-    pip install langchain langchain-google-genai langchain-chroma langchain-community langchain-text-splitters pypdf streamlit duckduckgo-search python-dotenv
-    ```
+* Required Python libraries (`python-dotenv`, `streamlit`, `pypdf`, `duckduckgo-search`, `langchain-google-genai`, `langchain` and other LangChain libraries)
 * An active **Google Gemini API Key** (stored securely in a `.env` file as `GOOGLE_API_KEY`).
 
 ## 🎥 Project Demonstration
