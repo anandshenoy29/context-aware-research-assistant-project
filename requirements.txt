@@ -1,0 +1,12 @@
+langchain
+langchain-chroma
+langchain-community 
+langchain-core
+langchain-classic
+langchain-text-splitters
+langchain-google-genai
+pypdf
+streamlit
+ddgs
+duckduckgo-search
+python-dotenv
